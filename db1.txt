@@ -1,0 +1,22 @@
+CREATE TABLE `user_information` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL,
+  `age` varchar(255) NOT NULL,
+  `gender` varchar(255) NOT NULL,
+  `city` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `docter` varchar(255) NOT NULL,
+  `day` varchar(255) NOT NULL,
+  `month` varchar(255) NOT NULL,
+  `year` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user_information`
+--
+
+INSERT INTO `user_information` (`id`, `first_name`, `last_name`, `age`, `gender`, `city`, `address`, `username`, `password`, `docter`, `day`, `month`, `year`) VALUES
+(14, 'Danish', 'Ali', '18', '', 'Delhi', 'Shastri Nagar ', 'masterprograming', 'Welcome@12', 'Danish', '15', 'November', '2020');

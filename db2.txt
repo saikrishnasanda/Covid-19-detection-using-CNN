@@ -1,0 +1,22 @@
+
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `user_information`
+
+--
+ALTER TABLE `user_information`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `user_information`
+--
+ALTER TABLE `user_information`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
